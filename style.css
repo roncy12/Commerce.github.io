@@ -57,7 +57,7 @@ html, body{
     align-items: center;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 440px) {
     .topnavbar{
       width: 100%;
     }
@@ -68,11 +68,12 @@ html, body{
          margin: 0;
     } 
     .quotes{
-        font-size: 10px;
+        font-size: 12px;
         
     }
 
 }
+
 
 
 .bg-color{
@@ -327,7 +328,7 @@ a:hover {
   and (device-height: 800px) {
         .responsive {
     width: 100%;
-    height:auto;
+    height:100%;
 }
     }
 
